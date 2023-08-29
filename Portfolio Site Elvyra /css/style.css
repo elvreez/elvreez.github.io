@@ -153,7 +153,7 @@ img {
   header {
     background-color: #f4f1de;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
   }
   
