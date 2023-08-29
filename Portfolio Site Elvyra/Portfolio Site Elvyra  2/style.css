@@ -1,4 +1,4 @@
-==/ *
+/*
 colors used:
 primary light (green/background): #D5F9DE
 secondary light (yellow/header): #DBF4A7 
@@ -32,39 +32,35 @@ p {
 }
 
 body{
-    background-color: #FFFCF8;
-    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #D5F9DE;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
-    color: #3d405b;
+    color: #184027;
 }
 
 h1 {
-    font-family: 'Suez One' , serif;
     line-height:1.4;
     font-size: 2.75em;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 
 h2 {
-  font-family: 'Suez One' , serif;
-  line-height:1.4;
+    line-height:1.4;
     font-size: 2em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
-  font-family: 'Suez One' , serif;
-  font-size: 1.75em;
-    font-weight: 400;
+    font-size: 1.75em;
+    font-weight: 500;
     line-height: 1;
 }
 
 h4 {
-  font-family: 'Suez One' , serif;
-  font-size: 1.35em;
+    font-size: 1.35em;
     font-weight: 400;
     line-height: 1;
 }
@@ -79,17 +75,17 @@ img {
 
 /*change the default link color to your primary color (copied from your comments at the top of the document)*/
   a {
-    color: #e07a5f;
+    color: #2D324D;
     text-decoration: none; /* No underlining */
   }
   a:hover {
-    color: #3d405b;
+    color: #cc6540;
     text-decoration: none; /* Underlining when hovering over a link */
   }
   
   /*style the current nav item green*/
   .active a {
-      color: #e07a5f;
+      color: #459d67;
       text-decoration: underline;
   }
   
@@ -103,13 +99,13 @@ img {
   /*CSS code for the button class*/
   .button {
     display: inline-block;
-    background-color: #3d405b;
-    color: #fffdef;
+    background-color: #6CCFBD;
+    color: #184027;
     font-weight: 400;
     text-decoration:none;
     padding: 10px;
     border-radius: 2px;
-    border: 2px solid #fffdef;
+    border: 2px solid #184027;
     transition: 0.2s opacity;
   }
   
@@ -125,16 +121,16 @@ img {
   /*
   /*button rules for the mailto button*/
   .button.contact {
-    background-color:#f4f1de;
-    color: #3d405b;
+    background-color:#E8E1FE;
+    color: #184027;
     text-transform: lowercase;
-    border: 2px solid #3d405b;
+    border: 2px solid #184027;
     width:150px 
   }
   
   .button.contact:hover {
-    background-color:#3d405b;
-    color:#f4f1de;
+    background-color:#E8E1FE;
+    color:#EFB893;
   }
   
   /*
@@ -151,7 +147,7 @@ img {
   
   /*style the <header> element*/
   header {
-    background-color: #f4f1de;
+    background-color: #DBF4A7;
     padding: 10px 0;
     position: relative;
     box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -206,9 +202,9 @@ nav {
 }
 .navtoggle.responsive li  {
   display: block;
-  background-color: #f4f1de;
+  background-color: #DBF4A7;
   padding: 10px;
-  border: 1px solid #f4f1de;
+  border: 1px solid #DBF4A7;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -216,7 +212,7 @@ nav {
 }
 
 #hero {
-  background-color: #f4f1de;
+  background-color: #DBF4A7;
   padding: 40px 0;
   display: inline-block;
   width: 100%;
@@ -232,7 +228,7 @@ nav {
     text-align:center;
     display:inline-block;
     justify-content: space-between;
-    background-color: #f4f1de;
+    background-color: #DBF4A7;
     width: 100%;   
 }
 
@@ -292,7 +288,7 @@ nav {
 
 #projectnav {
     text-align:center;
-    background-color:#f4f1de;
+    background-color:#DBF4A7;
     width:100%;
     padding: 10px 0;
 }
